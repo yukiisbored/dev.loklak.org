@@ -1,7 +1,7 @@
 language: generic
 before_script:
   - git fetch origin gh-pages
-  - git checkout gh-pages
+  - git checkout origin/gh-pages
 script:
   - .ci/pull.sh config.csv
 before_deploy:
